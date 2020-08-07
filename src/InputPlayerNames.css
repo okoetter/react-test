@@ -1,0 +1,24 @@
+.InputPlayerNames {
+  padding: .5em;
+  width: 20em;
+  background-color: darkgreen;
+  color: white;
+}
+
+.InputPlayerNames p {
+  margin-bottom: 1em;
+}
+
+.InputPlayerNames input {
+  width: 100%;
+}
+
+.buttonWrapper {
+  text-align: center;
+}
+
+.buttonWrapper button {
+  width: 5em;
+  height: 2em;
+  background: white;
+}
