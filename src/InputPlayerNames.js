@@ -1,11 +1,7 @@
 import React from "react";
 import "./InputPlayerNames.css";
 
-const start = () => {
-
-};
-
-const InputPlayerNames = () => {
+const InputPlayerNames = ({ handleClose }) => {
   return (
     <form className="InputPlayerNames">
       <p>
@@ -17,7 +13,7 @@ const InputPlayerNames = () => {
         <input type="text" id="Team2" name="Team2" />
       </p>
       <div className="buttonWrapper">
-        <button onClick="start">Start</button>
+        <button onClick={ () => { handleClose(); }}>Start</button>
       </div>
     </form>
   )
