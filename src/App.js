@@ -1,14 +1,14 @@
 import React, { useState } from 'react';
 import './App.css';
-import InputPlayerNames from './InputPlayerNames';
+import PlayerNamesModal from './PlayerNamesModal';
 
 function App() {
-  const [ShowInputPlayerNames, setShowInputPlayerNames] = useState(true);
-  const CloseInputPlayerNames = () => { setShowInputPlayerNames(false); }
+  const [ShowPlayerNamesModal, setPlayerNamesModal] = useState(true);
+  const ClosePlayerNamesModal = () => { setPlayerNamesModal(false); }
 
   return (
     <div className="App">
-      {ShowInputPlayerNames && <InputPlayerNames handleClose={ CloseInputPlayerNames } />}
+      {ShowPlayerNamesModal && <PlayerNamesModal handleClose={ ClosePlayerNamesModal } />}
     </div>
   );
 }

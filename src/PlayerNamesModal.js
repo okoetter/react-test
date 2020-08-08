@@ -1,9 +1,9 @@
 import React from "react";
-import "./InputPlayerNames.css";
+import "./PlayerNamesModal.css";
 
-const InputPlayerNames = ({ handleClose }) => {
+const PlayerNamesModal = ({ handleClose }) => {
   return (
-    <form className="InputPlayerNames">
+    <form className="PlayerNamesModal">
       <p>
         <label htmlFor="Team1">Name of Team 1:</label><br />
         <input type="text" id="Team1" name="Team1" />
@@ -19,4 +19,4 @@ const InputPlayerNames = ({ handleClose }) => {
   )
 };
 
-export default InputPlayerNames;
+export default PlayerNamesModal;
