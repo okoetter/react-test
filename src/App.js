@@ -9,8 +9,8 @@ function App() {
 
   return (
     <div className="App">
-      <button onClick={ openTeamNamesModal }>Change Teamnames</button>
-      {showTeamNamesModal && <TeamNamesModal handleClose={ closeTeamNamesModal } />}
+      <button onClick={openTeamNamesModal}>Change Teamnames</button>
+      {showTeamNamesModal && <TeamNamesModal handleClose={closeTeamNamesModal} />}
     </div>
   );
 }

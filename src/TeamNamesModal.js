@@ -13,7 +13,7 @@ const TeamNamesModal = ({ handleClose }) => {
         <input type="text" id="Team2" name="Team2" />
       </p>
       <div className="buttonWrapper">
-        <button onClick={ () => { handleClose(); }}>Start</button>
+        <button onClick={handleClose}>Start</button>
       </div>
     </form>
   )
