@@ -1,15 +1,15 @@
-.PlayerNamesModal {
+.TeamNamesModal {
   padding: .5em;
   width: 20em;
   background-color: darkgreen;
   color: white;
 }
 
-.PlayerNamesModal p {
+.TeamNamesModal p {
   margin-bottom: 1em;
 }
 
-.PlayerNamesModal input {
+.TeamNamesModal input {
   width: 100%;
 }
 
