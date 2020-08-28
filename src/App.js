@@ -4,13 +4,11 @@ import TeamNamesModal from './TeamNamesModal';
 
 function App() {
   const [showTeamNamesModal, setShowTeamNamesModal] = useState(true);
-  const openTeamNamesModal = () => { setShowTeamNamesModal(true); };
-  const closeTeamNamesModal = () => { setShowTeamNamesModal(false); };
 
   return (
     <div className="App">
-      <button onClick={openTeamNamesModal}>Change Teamnames</button>
-      {showTeamNamesModal && <TeamNamesModal handleClose={closeTeamNamesModal} />}
+      <button onClick={() => setShowTeamNamesModal(true)}>Change Teamnames</button>
+      {showTeamNamesModal && <TeamNamesModal handleClose={() => setShowTeamNamesModal(false)} />}
     </div>
   );
 }
